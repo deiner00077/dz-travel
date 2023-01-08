@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/main.css">
+    <title>Dz travel</title>
+</head>
+
+<body>
+
+    <header>
+        <h2>travel cost</h2>
+    </header>
+
+
+
+    <div class="main">
+        <form id="vacationCalc">
+            <label for="destiny">ciudad</label>
+            <select id="destiny" name="destiny">
+                <option value="barcelona">barcelona</option>
+                <option value="madrid">madrid</option>
+                <option value="sevilla">sevilla</option>
+                <option value="valencia">valencia</option>
+            </select>
+            <label for="days">numero de noches</label>
+            <input type="number" name="days" id="days" required />
+            <label for="car">numero de dias de alquiler de coche</label>
+            <input type="number" name="car" id="coche" required />
+            <input type="submit" value="calcular" id="calcCost" />
+        </form>
+        <div class="data">
+
+        </div>
+
+    </div>
+
+
+
+
+    <script src="/main.js"></script>
+</body>
+
+</html>
